@@ -13,11 +13,15 @@ const client = new TwitterApi({
   try {
     // 📝 Isi tweet kamu di sini (nanti aku bantu isi sesuai request kamu)
     const textTweet = `
-Ada potongan harga lumayann🥳
-klaim vc nya di halaman resto (siapa tau lebih hokii)✨️
-👍 https://spf.shopee.co.id/7pl5bVJQbh
+‼️ ShopeeFood Diskon 80% s/d 15RB (Minbel 0) 
+* Klaim ⏰ 11:00 | 15:00 | 18:00
+* Untuk Semua Resto
+* Pemakaian Terbatas
 
-gofood grabfood shopeefood kode promo go grab shopee food diskon voucher daget gojek
+Klaim voucher nya di sini ⬇️
+https://spf.shopee.co.id/10thhKTS1Q
+
+gofood grabfood kode promo go grab shopee food gojek 
 `;
 
     // 📸 Upload 1 gambar dari repo
@@ -34,7 +38,4 @@ gofood grabfood shopeefood kode promo go grab shopee food diskon voucher daget g
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
-
-
-
 
