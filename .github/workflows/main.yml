@@ -1,8 +1,8 @@
-name: Twitter Bot Auto Post Allie 
+name: Twitter Bot Auto Post - allie
 
 on:
   schedule:
-    - cron: "0 */3 * * *"  # Jalan tiap 3 jam
+    - cron: "0 */4 * * *"  # Jalan tiap 4 jam
   workflow_dispatch:        # Bisa juga dijalankan manual
 
 jobs:
